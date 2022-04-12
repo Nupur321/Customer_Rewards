@@ -51,7 +51,7 @@ http://localhost:8080/rewards/1
 # Database 
 
 To log into the H2 database to check the data in tables use following link:
-http://localhost:8081/h2  
+http://localhost:8080/h2  
 JDBC URL =jdbc:h2:mem:testdb
 
 Fallback credientials
