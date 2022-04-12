@@ -28,9 +28,16 @@ Implemented Spring Boot @Controller Advice.
 Define a Custom Exception named CustomerNotFoundexception for scenarios where no customer is returned.
 
 # To run
-- git clone 
+- git clone https://github.com/Nupur321/Customer_Rewards
 - mvn clean compile
 - mvn spring-boot:run
+
+# Health API
+http://localhost:8080/actuator/
+http://localhost:8080/actuator/health
+
+Sample Response
+```{"status":"UP"}```
 
 # Urls:
 1. To get rewards for All customers  -> /rewards
@@ -44,8 +51,9 @@ http://localhost:8080/rewards/1
 # Database 
 
 To log into the H2 database to check the data in tables use following link:
-http://localhost:9091/h2  
-JDBC URL =jdbc:h2:mem:testdb  
-UserName = sa   
-There is no password  
+http://localhost:8081/h2  
+JDBC URL =jdbc:h2:mem:testdb
 
+Fallback credientials
+UserName = sa
+Password = root
