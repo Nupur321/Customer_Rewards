@@ -45,7 +45,6 @@ Sample Response
 
 After the program is run, user can enter either of the following link in the URL:
 http://localhost:8080/rewards
-
 http://localhost:8080/rewards/1
 
 # Database 
